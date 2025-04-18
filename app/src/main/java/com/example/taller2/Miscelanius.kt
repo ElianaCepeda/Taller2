@@ -10,6 +10,7 @@ class MIscelanius {
     companion object {
 
         const val PERMISSION_READ_CONTACTS = 10
+        const val PERMISSION_CAMERA = 10
 
     }
 }

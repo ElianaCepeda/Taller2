@@ -48,11 +48,11 @@ class ContactsActivity : AppCompatActivity() {
 
         mlista.adapter = mContactsAdapter
 
-        permisos()
+        permisosContactos()
     }
 
 
-    private fun permisos() {
+    private fun permisosContactos() {
         when {
             ContextCompat.checkSelfPermission(
                 this, android.Manifest.permission.READ_CONTACTS
