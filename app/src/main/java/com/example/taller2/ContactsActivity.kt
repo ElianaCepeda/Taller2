@@ -165,6 +165,7 @@ class ContactsActivity : AppCompatActivity() {
 
             mContactsAdapter?.changeCursor(mCursor)
 
+
         } else {
             Toast.makeText(this, "No hay permiso, reduciendo funcionalidades", Toast.LENGTH_SHORT).show()
         }
