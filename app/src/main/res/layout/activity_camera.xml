@@ -9,14 +9,16 @@
 
     <ImageView
         android:id="@+id/imageViewFoto"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="250dp"  android:layout_height="250dp"
         android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
         android:src="@drawable/camera"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/guideline_buttons" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline_buttons"
+        android:scaleType="centerCrop"
+        />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_buttons"
