@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Taller2</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="hintAddress">ingrese una dirección</string>
 </resources>

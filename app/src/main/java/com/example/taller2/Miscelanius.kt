@@ -12,6 +12,7 @@ class MIscelanius {
         const val PERMISSION_READ_CONTACTS = 10
         const val PERMISSION_CAMERA = 20
         const val PERMISSION_READ_STORAGE = 30
+        const val PERMISSION_LOCATION = 40
 
     }
 }

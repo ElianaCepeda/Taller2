@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun irAMapa() {
         binding.imageButtonMap.setOnClickListener {
-            val intent = Intent(this, MapActivity::class.java)
+            val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
         }
     }
