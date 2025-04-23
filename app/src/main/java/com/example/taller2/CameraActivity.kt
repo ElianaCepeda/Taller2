@@ -80,7 +80,6 @@ class CameraActivity : AppCompatActivity() {
             }
 
             else -> {
-                // Ignore all other requests.
             }
         }
     }

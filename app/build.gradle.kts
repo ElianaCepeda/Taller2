@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.google.android.libraries.mapsplatform.secrets.gradle.plugin)
+    kotlin("plugin.serialization") version "1.9.0"
 }
 
 android {
@@ -53,6 +54,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
+    implementation(libs.kotlinx.serialization.json) // Verifica la última versión compatible
+    implementation(libs.osmbonuspack) // O la última versión estable
+    implementation(libs.osmdroid.android.v6118)
 
 }
